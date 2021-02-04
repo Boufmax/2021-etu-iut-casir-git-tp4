@@ -25,7 +25,7 @@ Nous avons besoin pour celà de "forker" le repository.
 
 Q1: Quelle est la différence entre un fork et un clone ?
 
-> Votre réponse
+> La différence entre un fork et un clone, c'est que, lorsqu'on fork, on copie le repo dans espace personnel sur le serveur distant alors que lorsqu'on clone, on copie le repo dans son état actuel sur notre espace personnel en local.
 
 ![](images/fork.png)
 
@@ -43,7 +43,7 @@ Chaque personne du groupe doit compléter son document **ecommerce_prenom-nom.md
 
 Q2: Github propose un clone ou download ( bouton vert ), quelle est la différence fondamentale entre les deux ?
 
-> Votre réponse
+> Lorsqu'on choisit de cloner le dépot, le dépot en local sera lié vers le dépot distant alors que lorsqu'on clique sur download, il n'y a aucune liaison, c'est du téléchargement pur et simple de code source.
 
 ### 1.2 Découverte du repository crée
 
@@ -51,7 +51,7 @@ Quand vous récupérez un projet, il est toujours intéressant d'analyser l'hist
 
 - Q3: Quelle est la commande git permettant de visualiser l'historique du projet ?
 
-> Votre réponse
+> git log
 
 _N'hésitez pas à regarder la documentation de cette commande pour voir les nombreuses options disponibles_
 
