@@ -91,8 +91,7 @@ Avant de passer à la suite, chaque personne doit avoir les liens de tous les au
 
 Q7: Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?
 
-> Votre réponse
-
+Parce que la personne ne peut partager qu'au serveur distant, les autres utilisateurs doivent récupérer les changements avec la commande pull
 ## 3. Ajout de pages
 
 Le footer contient 4 liens vers d'autres pages du site qui ne sont pas encore créées.
