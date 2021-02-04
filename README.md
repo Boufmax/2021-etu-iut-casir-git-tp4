@@ -57,12 +57,12 @@ _N'hésitez pas à regarder la documentation de cette commande pour voir les nom
 
 - Q4: Chaque commit a un numéro unique, seriez vous retrouver celui du cinquième commit de ce repository ?
 
-> Votre réponse
+5651629bb4da4aa2298339d7daa58247d25c4bfb
 
 - Q5: D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, c'est à dire quelles ont été les modifications apportées au projet au 3ième et 4ième commit ?
 
-> Votre réponse
-
+git show 5651629bb4da4aa2298339d7daa58247d25c4bfb
+![](src/assets/Capture%20d’écran%20du%202021-02-04%2011-10-16.png)
 ### 1.3 Premier commit à faire en groupe, partage et récupération.
 
 ##### à faire par une personne du groupe
@@ -85,14 +85,13 @@ Chaque personne de l'équipe va modifier le lien pointé par une icone, faire un
 
 - Q6: Juste avant de commiter, quelle est la commande pour visualiser le contenu de son prochain commit ?
 
-> Votre réponse
+git status
 
 Avant de passer à la suite, chaque personne doit avoir les liens de tous les autres présents sur son poste en local.
 
 Q7: Pourquoi la première personne peut partager ses changements sans problème et les autres sont obligées de faire une opération supplémentaire ?
 
-> Votre réponse
-
+Parce que la personne ne peut partager qu'au serveur distant, les autres utilisateurs doivent récupérer les changements avec la commande pull
 ## 3. Ajout de pages
 
 Le footer contient 4 liens vers d'autres pages du site qui ne sont pas encore créées.
