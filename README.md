@@ -62,7 +62,7 @@ _N'hésitez pas à regarder la documentation de cette commande pour voir les nom
 - Q5: D'ailleurs comment savoir, quel est le contenu de ce cinquième commit, c'est à dire quelles ont été les modifications apportées au projet au 3ième et 4ième commit ?
 
 git show 5651629bb4da4aa2298339d7daa58247d25c4bfb
-![](src/assets/Capture%20d’écran%20du%202021-02-04%2011-10-16.png)
+![](src/images/items/Capture%20d’écran%20du%202021-02-04%2011-10-16.png)
 ### 1.3 Premier commit à faire en groupe, partage et récupération.
 
 ##### à faire par une personne du groupe
