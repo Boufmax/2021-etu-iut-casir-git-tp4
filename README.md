@@ -157,17 +157,8 @@ Si vous regardez à la racine du répertoire il y a un dossiers `bash-scripts` a
 ```
 
 * Q11: Quel fichier a été modifié par le script ?
-git status
-  Sur la branche master
-  Votre branche est en avance sur 'origin/master' de 1 commit.
-  (utilisez "git push" pour publier vos commits locaux)
 
-Modifications qui ne seront pas validées :
-(utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
-(utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
-modifié:         src/js/script.js
-
-
+> Votre réponse et la commande git permettant de le savoir.
 
 Si vous essayez de voir votre site, il ne fonctionne plus ( ou mal pendant un certain temps ), le code introduit une boucle infini faisant planter votre navigateur ( oups ). 
 Ça arrive de faire des erreurs, on va utiliser git pour revenir en arrière :
