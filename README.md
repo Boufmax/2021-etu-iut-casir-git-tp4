@@ -111,8 +111,8 @@ Faites une page simple, mais contenant au minimum :
 * Procédez à ces deux commits, mettez des messages explicites pour différencier vos travaux. Si vous mettez "Ajout d'une page", on aura 3 ou 4 messages de commit similaires. Ce qui est néfaste pour l'historique.
 
 * Q8: Quel est le concept en git qui nous permet de procéder ainsi ?
-
-> Chaque commit doit être atomique 
+L'atomicité des commits, et la spécifité de la langue française
+> Votre réponse  
 
 Avant de passer à la suite, chaque personne doit avoir les pages de tous les autres présentes sur son poste en local.
 
