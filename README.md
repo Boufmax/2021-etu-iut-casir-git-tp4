@@ -184,7 +184,7 @@ Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
  **Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
 
-Parce que cela créer un divergeance d'historique  avec le dépot distant.
+Parce que cela créer une divergeance d'historique  avec le dépot distant.
 Mais on pourrait faire un git rebase puis un git push --force, si le dépot n'est pas protégé.
 
 Ressources :
@@ -206,13 +206,15 @@ Executer le script `oups-oups-oups.sh` :
 ```
 Q15: Erreur script: 
 * Visualiser votre historique, que s'est t-il passé ?
-> Votre réponse
-
+5 commits inutiles ont été rajoutés
 * Comment revenir en arrière et donc ignorer les 5 derniers commits ?
-> Votre réponse
+
+git reset --hard HEAD~5
 
 **NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-> Votre réponse
+Parce que cela créer une divergeance d'historique  avec le dépot distant.
+Mais on pourrait faire un git rebase puis un git push --force, si le dépot n'est pas protégé.
+
 
 Ressources :
  
