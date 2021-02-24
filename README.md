@@ -146,7 +146,7 @@ Avant de passer à la suite, chaque personne doit avoir les commits de toutes le
 
 - Q10: Comment vous vous assurez que git n'est plus en état de conflit ?
 
-> Votre réponse
+	git status
 
 ## 5. 😄 Oups 😄
 
