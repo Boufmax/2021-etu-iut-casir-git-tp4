@@ -112,7 +112,6 @@ Faites une page simple, mais contenant au minimum :
 
 * Q8: Quel est le concept en git qui nous permet de procéder ainsi ?
 L'atomicité des commits, et la spécifité de la langue française
-> Votre réponse  
 
 Avant de passer à la suite, chaque personne doit avoir les pages de tous les autres présentes sur son poste en local.
 
@@ -141,8 +140,9 @@ _Si vous avez des conflits, gardez le prix le plus proche de 500\$._
 Avant de passer à la suite, chaque personne doit avoir les commits de toutes les personnes sur son poste en local.
 
 - Q9: Quelles sont les étapes pour résoudre des conflits sous git ?
-
-> Votre réponse
+ 	1. Editer le fichier où le conflit est présent, pour ne garder que les modifications nécessaire
+	2. git add nomfichier
+	3. git commit
 
 - Q10: Comment vous vous assurez que git n'est plus en état de conflit ?
 
