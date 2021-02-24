@@ -176,14 +176,16 @@ Exécuter le script
 
 * Q13: Faire un git status, qu'observez vous ?
 
-> Votre réponse
+Que le fichier src/images/items/computer.jpeg n'a pas été commité
 
 Il arrive que nous oublions de commiter un fichier, on peut donc revenir sur un commit déjà fait
 
 Modifier le commit précédent en n'oubliant pas de rajouter le fichier oublié
 
  **Q14: NB: vous pouvez faire ça uniquement sur des commits non partagés. Pourquoi ?**
-> Votre réponse
+
+Parce que cela créer un divergeance d'historique  avec le dépot distant.
+Mais on pourrait faire un git rebase puis un git push --force, si le dépot n'est pas protégé.
 
 Ressources :
 
